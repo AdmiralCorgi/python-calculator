@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def add(num1, num2)
     result = num1 +num2
     print ("The result is: ", result)
@@ -18,15 +17,6 @@ def divide(num1, num2)
 def modulo(num1, num2)
     result = num1 % num2 
     print ("The result is: ", result)
-=======
-def add(num1, num2) :
-    result = num1 + num2
-    print("The result is: ", result)
-
-def substract(num1, num2) :
-    result = num1 - num2
-    print("The result of substract is: ", result)
->>>>>>> 04e93f81c3c110c669e25f74c83f568926eac388
 
 def multiply(num1, num2) :
     result = num1 * num2
