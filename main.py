@@ -1,8 +1,9 @@
+<<<<<<< HEAD
 def add(num1, num2)
     result = num1 +num2
     print ("The result is: ", result)
     
-def subtract(num1 , num2)
+def subtract(num1, num2)
     result = num1 - num2
     print ("The result of the subtract is: ", result)
     
@@ -17,7 +18,27 @@ def divide(num1, num2)
 def modulo(num1, num2)
     result = num1 % num2 
     print ("The result is: ", result)
+=======
+def add(num1, num2) :
+    result = num1 + num2
+    print("The result is: ", result)
 
+def substract(num1, num2) :
+    result = num1 - num2
+    print("The result of substract is: ", result)
+>>>>>>> 04e93f81c3c110c669e25f74c83f568926eac388
+
+def multiply(num1, num2) :
+    result = num1 * num2
+    print("The multiplication result is: ", result)
+
+def divide(num1, num2) :
+    result = num1 / num2
+    print("The result is: ", result)
+
+def modulo(num1, num2) :
+    result = num1 % num2
+    print("The result is: ", result)
 
 def main():
     print("Enter the operation you want to perform: ")
@@ -28,7 +49,7 @@ def main():
 
     if user_operation == "add":
         add(user_input1, user_input2)
-    elif user_operation == "subtract":
+    elif user_operation == "substract":
         subtract(user_input1, user_input2)
     elif user_operation == "multiply":
         multiply(user_input1, user_input2)
